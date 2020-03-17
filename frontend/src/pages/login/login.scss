@@ -1,0 +1,24 @@
+.login__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  .login-form {
+    max-width: 300px;
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    margin-top: 70px;
+
+    .form__item {
+      margin-bottom: 20px;
+    }
+  }
+
+  .login-form-forgot {
+    float: right;
+  }
+
+  .login-form-button {
+    width: 100%;
+  }
+}
